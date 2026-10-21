@@ -1,1 +1,378 @@
+<HTML>
 
+<HEAD>
+</HEAD>
+
+<BODY>
+
+<H1>HELLO WORLD!!</H1>
+
+<form>
+<input id="myInput" type="text" style="width: 100px;"></input>
+<br /><br />
+
+<input onclick="calculate(); return false;" type="submit" style="width: 100px; height: 50px;" value="Calculate"></input>
+<br / ><br />
+</form>
+
+<div id="divColor" style="border: 1px solid black; width: 100px; height: 100px;">
+</div>
+
+
+<SCRIPT type="text/javascript">
+
+function calculate(){
+
+var myText = document.getElementById("myInput").value;
+
+var words = myText.trim().split(' ');
+
+var totalWords = 0;
+for (var i = 0; i < words.length; i++){
+
+	//alert(words[i]);
+	var wordCount = 0;
+	for (var j = 0; j < words[i].length; j++) {
+		//alert(words[i][j]);
+		switch(words[i][j]){
+			case 'a':
+				// code block
+				wordCount += 1;
+			break;
+			case 'A':
+				// code block
+				wordCount += 1;
+			break;
+			case 'b':
+				// code block
+				wordCount += 2;
+			break;
+			case 'B':
+				// code block
+				wordCount += 2;
+			break;
+			case 'c':
+				// code block
+				wordCount += 3;
+			break;
+			case 'C':
+				// code block
+				wordCount += 3;
+			break;
+			case 'd':
+				// code block
+				wordCount += 4;
+			break;
+			case 'D':
+				// code block
+				wordCount += 4;
+			break;
+			case 'e':
+				// code block
+				wordCount += 5;
+			break;
+			case 'E':
+				// code block
+				wordCount += 5;
+			break;
+			case 'f':
+				// code block
+				wordCount += 6;
+			break;
+			case 'F':
+				// code block
+				wordCount += 6;
+			break;
+			case 'g':
+				// code block
+				wordCount += 7;
+			break;
+			case 'G':
+				// code block
+				wordCount += 7;
+			break;
+			case 'h':
+				// code block
+				wordCount += 8;
+			break;
+			case 'H':
+				// code block
+				wordCount += 8;
+			break;
+			case 'i':
+				// code block
+				wordCount += 9;
+			break;
+			case 'I':
+				// code block
+				wordCount += 9;
+			break;
+			case 'j':
+				// code block
+				wordCount += 10;
+			break;
+			case 'J':
+				// code block
+				wordCount += 10;
+			break;
+			case 'k':
+				// code block
+				wordCount += 11;
+			break;
+			case 'K':
+				// code block
+				wordCount += 11;
+			break;
+			case 'l':
+				// code block
+				wordCount += 12;
+			break;
+			case 'L':
+				// code block
+				wordCount += 12;
+			break;
+			case 'm':
+				// code block
+				wordCount += 13;
+			break;
+			case 'M':
+				// code block
+				wordCount += 13;
+			break;
+			case 'n':
+				// code block
+				wordCount += 14;
+			break;
+			case 'N':
+				// code block
+				wordCount += 14;
+			break;
+			case 'o':
+				// code block
+				wordCount += 15;
+			break;
+			case 'O':
+				// code block
+				wordCount += 15;
+			break;
+			case 'p':
+				// code block
+				wordCount += 16;
+			break;
+			case 'P':
+				// code block
+				wordCount += 16;
+			break;
+			case 'q':
+				// code block
+				wordCount += 17;
+			break;
+			case 'Q':
+				// code block
+				wordCount += 17;
+			break;
+			case 'r':
+				// code block
+				wordCount += 18;
+			break;
+			case 'R':
+				// code block
+				wordCount += 18;
+			break;
+			case 's':
+				// code block
+				wordCount += 19;
+			break;
+			case 'S':
+				// code block
+				wordCount += 19;
+			break;
+			case 't':
+				// code block
+				wordCount += 20;
+			break;
+			case 'T':
+				// code block
+				wordCount += 20;
+			break;
+			case 'u':
+				// code block
+				wordCount += 21;
+			break;
+			case 'U':
+				// code block
+				wordCount += 21;
+			break;
+			case 'v':
+				// code block
+				wordCount += 22;
+			break;
+			case 'V':
+				// code block
+				wordCount += 22;
+			break;
+			case 'w':
+				// code block
+				wordCount += 23;
+			break;
+			case 'W':
+				// code block
+				wordCount += 23;
+			break;
+			case 'x':
+				// code block
+				wordCount += 24;
+			break;
+			case 'X':
+				// code block
+				wordCount += 24;
+			break;
+			case 'y':
+				// code block
+				wordCount += 25;
+			break;
+			case 'Y':
+				// code block
+				wordCount += 25;
+			break;
+			case 'z':
+				// code block
+				wordCount += 26;
+			break;
+			case 'Z':
+				// code block
+				wordCount += 26;
+			break;
+			case '1':
+				// code block
+				wordCount += 1;
+			break;
+			case '2':
+				// code block
+				wordCount += 2;
+			break;
+			case '3':
+				// code block
+				wordCount += 3;
+			break;
+			case '4':
+				// code block
+				wordCount += 4;
+			break;
+			case '5':
+				// code block
+				wordCount += 5;
+			break;
+			case '6':
+				// code block
+				wordCount += 6;
+			break;
+			case '7':
+				// code block
+				wordCount += 7;
+			break;
+			case '8':
+				// code block
+				wordCount += 8;
+			break;
+			case '9':
+				// code block
+				wordCount += 9;
+			break;
+			default:
+				// code block
+		}	
+	}
+
+
+	wordCount = wordCount + "";
+	while(wordCount.length > 1){
+
+		var numCount = 0;
+		for (k = 0; k < wordCount.length; k++){
+			numCount += Number(wordCount[k]);
+		}
+
+		wordCount = numCount + "";
+
+	}
+
+	//alert(wordCount);
+	totalWords += Number(wordCount);
+}
+
+//alert(totalWords);
+
+
+totalWords = totalWords + "";
+	while(totalWords.length > 1){
+
+		var numCount = 0;
+		for (k = 0; k < totalWords.length; k++){
+			numCount += Number(totalWords[k]);
+		}
+
+		totalWords = numCount + "";
+
+	}
+
+//alert(totalWords);
+
+
+switch(Number(totalWords)){
+	case 1:
+		// yellow
+		document.getElementById("divColor").style.backgroundColor = "yellow";
+	break;
+	case 2:
+		// blue
+		document.getElementById("divColor").style.backgroundColor = "blue";
+	break;
+	case 3:
+		// red
+		document.getElementById("divColor").style.backgroundColor = "red";
+	break;
+	case 4:
+		// purple
+		document.getElementById("divColor").style.backgroundColor = "purple";
+	break;
+	case 5:
+		// orange
+		document.getElementById("divColor").style.backgroundColor = "orange";
+	break;
+	case 6:
+		// green
+		document.getElementById("divColor").style.backgroundColor = "green";
+	break;
+	case 7:
+		// maroon
+		document.getElementById("divColor").style.backgroundColor = "maroon";
+	break;
+	case 8:
+		// black
+		document.getElementById("divColor").style.backgroundColor = "black";
+	break;
+	case 9:
+		// yellow
+		document.getElementById("divColor").style.backgroundColor = "yellow";
+	break;
+	default:
+		// code block
+		// white
+		document.getElementById("divColor").style.backgroundColor = "white";
+}
+
+
+
+//alert(myText);
+
+}
+
+alert("Hello World!!");
+
+</SCRIPT>
+
+
+</BODY>
+
+</HTML>
