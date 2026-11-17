@@ -1,7 +1,7 @@
 <HTML>
 
 <HEAD>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </HEAD>
 
 <BODY style="margin-left: auto;
@@ -9,21 +9,39 @@
     width: 50%;
     text-align: center;">
 
-	<br /><br />
+<br /><br />
 
-<div style="border: 1px solid #000000; padding: 5px;">Please enter a word, <span style="color: blue;">words</span>, sentence, or sentences and then click
+<div style="position: relative; left: -25%; width: 150% !important; border-top: 1px solid #ff0000;
+border-left: 1px solid #ff0000; border-right: 1px solid #0000ff; border-bottom: 1px solid #0000ff; padding: 5px;">Please enter a word, <span style="color: blue;">words</span>, sentence, or sentences and then click
 calculate to convert your input into a <span style="color: red;">mood</span> specific color.</div>
 
+<br />
 
-<br /><br /><br />
-	
+<div style="background-color: gray; position: relative; left: -25%; width: 150% !important; border-top: 1px solid #ff0000;
+border-left: 1px solid #ff0000; border-right: 1px solid #0000ff; border-bottom: 1px solid #0000ff; padding: 5px;">
+
+
+<span style="color: yellow;">Yellow</span>: learning; <span style="color: blue;">Blue</span>: liberal, free;
+<span style="color: red;">Red</span>: conservative, stop; <span style="color: purple;">Purple</span>: religious, holy;
+<span style="color: orange;">Orange</span>: unknown; <span style="color: green;">Green</span>: strong, go;
+<span style="color: maroon;">Maroon</span>: hard stop; <span style="color: black;">Black</span>: greater unknown.
+
+
+</div>
+
+<br /><br />
+
+
 <H1 style="width: 100%;"><span style="color: red;">Mood</span><span style="color: blue;">Words</span></H1>
 
 <form>
-<input id="myInput" type="text" style="width: 100%;" placeholder="Enter your text here"></input>
+<textarea id="myInput" rows="4" style="width: 100%;" placeholder="Enter your text here"></textarea>
 <br /><br />
 
-<input onclick="calculate(); return false;" type="submit" style="width: 50%; height: 50px;" value="Calculate"></input>
+<input onclick="calculate(); return false;" type="submit" 
+style="width: 50%; height: 50px; border-top: 2px solid #ff0000;
+border-left: 2px solid #ff0000; border-right: 2px solid #0000ff; border-bottom: 2px solid #0000ff;" 
+value="Calculate"></input>
 <br / ><br />
 </form>
 
